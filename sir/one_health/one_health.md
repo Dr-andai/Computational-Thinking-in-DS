@@ -1,7 +1,7 @@
 # SIR MODEL
 **Hello world of epidemic modeling**
 The SIR model is based on the idea that a population during an outbreak can be divided into three groups or compartments: S – susceptible, I – infected, and R – recovered. The model was first described by Kermack and McKendrick. Differential equations describe the SIR model mathematically. The equations represent the rate of change of each compartment over time rather than the absolute number of individuals in a compartment at any given time.
-- dS/dt = -𝛽SI/N # (𝛽 i sthe transmission rate)
+- dS/dt = -𝛽SI/N # (𝛽 is the transmission rate)
 - dI/dt = 𝛽SI/N - YI # (Y is the recovery rate)
 - dR/dt = YI
 
@@ -20,7 +20,7 @@ For humans, the most common way to get infected is through direct contact with t
 While it is also possible for human to get the virus from a mosquito bite, this is not common. No human-to-human transmission has been observed to date.
 
 
-# ONE HEALTH SIR
+# ONE HEALTH SIR MODEL
 The traditional SIR works well for human specific diseases. Example smallpox/measeles. It has also been used in COVID 19 pandemic. Where after the disease commenced, the virus was transmitted via human-human, and did not need any vector. Traditional SIR falls short because it lacks:  
 - animal reservoir (the pathogen should persist on the organism)  
 - Cross spices spill over  
@@ -28,5 +28,5 @@ The traditional SIR works well for human specific diseases. Example smallpox/mea
 
 # Theoretical framework for ONEHEALTH SIR MODEL  
 - Incorporating multiple species and environmental compartments
-- Critical transmission pathways: Livestock -> Mosquitoes -> Humans, Environment -> Mosquitoes breeding
+- Critical transmission pathways: Livestock -> Mosquitoes -> Humans, Environment -> Mosquitoes breeding, Lievstock -> Human
 - Seasonal effects: Rainfall patterns which create mosquito breeding habitats leading to outbreak cycles
