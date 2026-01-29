@@ -1,2 +1,7 @@
 pandas
 numpy
+seaborn
+torch
+matplotlib
+tqdm
+modal
